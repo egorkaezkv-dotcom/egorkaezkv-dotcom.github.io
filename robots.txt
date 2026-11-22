@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://egorkaezkv-dotcom.github.io/sitemap.xml
