@@ -20,7 +20,7 @@ document.querySelector('[data-demo]')?.addEventListener('submit', event => {
 document.querySelector('[data-demo]')?.addEventListener('input', event => {
   event.currentTarget.querySelector('output').replaceChildren();
 });
-const apiOrigin="https://forma-atelier.dynv6.net";
+const apiOrigin="https://api.forma-egor.dynv6.net";
 const inquiryForm=document.querySelector('[data-inquiry]');
 let online=false;
 if(inquiryForm){

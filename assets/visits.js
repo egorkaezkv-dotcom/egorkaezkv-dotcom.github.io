@@ -34,7 +34,7 @@
   }
   function record(kind){
     const event=context(kind);if(!event)return;
-    fetch("https://forma-atelier.dynv6.net/events",{method:"POST",credentials:"omit",referrerPolicy:"no-referrer",headers:{"Content-Type":"application/json"},body:JSON.stringify(event),keepalive:true}).catch(()=>{});
+    fetch("https://api.forma-egor.dynv6.net/events",{method:"POST",credentials:"omit",referrerPolicy:"no-referrer",headers:{"Content-Type":"application/json"},body:JSON.stringify(event),keepalive:true}).catch(()=>{});
   }
   window.formaReceiptContext=()=>context("form_success");
   const sections={studio:"services",services:"services",projects:"portfolio",contact:"contacts"};
